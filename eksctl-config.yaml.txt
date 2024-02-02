@@ -1,0 +1,8 @@
+metadata:
+  name: mario-cluster
+  region: ap-south-1
+
+nodeGroups:
+  - name: ng-1
+    desiredCapacity: 2
+    instanceType: t2.microroot@ip-172-31-5-233:/mario_game#
